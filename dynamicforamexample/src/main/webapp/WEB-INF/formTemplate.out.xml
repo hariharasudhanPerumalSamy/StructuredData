@@ -1,34 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form id="identityCreateForm" action="identityAction" method="post">
 
-	<label for="displayName">Display Name</label>
+	<label>
+		<h2 for="displayName">Display Name</h2>
+	</label>
 	<br />
 	<input id="displayName" type="text" name="displayName" required="true"
 		value="" placeholder="Please type here the Display Name"
-		data-calculation="" />
+		data-calculation="" class="inputField" />
+	<br />
 
-	<label for="email">Email</label>
+	<label>
+		<h2 for="email">Email</h2>
+	</label>
 	<br />
 	<input id="email" type="email" name="email" required="true"
-		value="" placeholder="Please Enter the Email" data-calculation="" />
+		value="" placeholder="Please Enter the Email" data-calculation=""
+		class="inputField" />
+	<br />
 
-	<label for="birthDate">Birth Date</label>
+	<label>
+		<h2 for="birthDate">Birth Date</h2>
+	</label>
 	<br />
 	<input id="birthDate" type="date" name="birthDate" required="true"
-		value="" placeholder="Birth date" data-calculation="" />
+		value="" placeholder="Birth date" data-calculation="" class="inputField" />
+	<br />
 
-	<label for="phoneNumber">Phone Number</label>
+	<label>
+		<h2 for="phoneNumber">Phone Number</h2>
+	</label>
 	<br />
 	<input id="phoneNumber" type="text" name="phoneNumber" required="true"
-		value="" placeholder="Enter the phone number" data-calculation="" />
-
-	<label for="manager" />
+		value="" placeholder="Enter the phone number" data-calculation=""
+		class="inputField" />
 	<br />
-	<input id="manager" type="identity" name="manager" required=""
-		value="" placeholder="" data-calculation="" />
 
-	<label for="submit" />
+	<label>
+		<h2 for="submit" />
+	</label>
 	<br />
 	<input id="submit" type="submit" name="submit" required="" value="submit"
-		placeholder="" data-calculation="" />
+		placeholder="" data-calculation="" class="submitBtn" />
+	<br />
 </form>

@@ -7,7 +7,7 @@ public class Configuration {
 
 	private static Configuration configuration;
 	
-	private String currentPath = "/users/hariharasudhanhari/Desktop/test/config";
+	private String currentPath = "/test/config";
 	
 	private Configuration(){
 		
